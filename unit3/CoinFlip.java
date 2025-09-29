@@ -1,15 +1,21 @@
 public class CoinFlip{
-	public static coinFlip(String coin){
+	public static String coinFlip(String coin){
 		
 		double flip = (int)Math.random()*10;
 		
 		if(flip < 5)
-			return coin = "Heads";
+			coin = "Heads";
 		 else if (flip > 5)
-			return coin = "Tails";
+			coin = "Tails";
 		
+		return coin;
 		}
 		
 	public static void main(String[] args){
-	
-	}
+		
+		for(int i = 0; i < 20; i++){
+			System.out.println(coin);
+			}
+		
+		}
+}
