@@ -4,12 +4,17 @@ public class PowersOf2{
 	public static int powersOf2(int n){
 		
 		int total = 0;
+		int power = 1;
+		
+			if(n==0)
+			total = 0;
+			
+		n --;
 		
 		for(int i = 0; i <= n; i++){
-			
-			// still working on it
-			
-			total = total +
+		
+			total = total + power;
+			power*=2;
 			
 			}
 			
