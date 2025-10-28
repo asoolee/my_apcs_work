@@ -1,7 +1,7 @@
 public class DieRolling{
 	public static int dieRolling(){
 		
-		int die = (int)(Math.random()*6 + 1s);
+		int die = (int)(Math.random()*6 + 1);
 		
 		return die;
 		
