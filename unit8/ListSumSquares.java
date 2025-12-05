@@ -5,7 +5,7 @@ public class ListSumSquares
 	public static double sumSquares(ArrayList<Double> nums)
 	{
 		double total = 0;
-		for(int i = 0; i < nums.size(); i ++)ㄴ
+		for(int i = 0; i < nums.size(); i ++)
 		{
 			total+= nums.get(i)*nums.get(i);
 		}
