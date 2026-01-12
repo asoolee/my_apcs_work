@@ -37,7 +37,7 @@ public class Arrival
 		{
 			velocity.mult(0.8f);
 			if(velocity.mag() < 3)
-			velocity.setMag(3);
+			velocity.setMag(p.random(1,4));
 		}
 		
 	}
