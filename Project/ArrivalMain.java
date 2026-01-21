@@ -37,7 +37,6 @@ public class ArrivalMain extends PApplet
 	
 		if(spawn)
 		{
-			n++;
 			float t = random(0, TWO_PI);
 			arrivals.add(new Arrival(this, new PVector(mouseX, mouseY), new PVector(cx+r*cos(t),cy+r*sin(t))));
 		}
@@ -67,7 +66,7 @@ public class ArrivalMain extends PApplet
 	private float cx, cy;
 	private float r;
 	private float N = 1400;
-	private float n = 0;
+
     
 }
 
