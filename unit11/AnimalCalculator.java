@@ -22,7 +22,7 @@ public class AnimalCalculator
 		System.out.println("Least legs: " + leastLegs(animals));
 	}
 	
-	public int averageLegs(ArrayList<Animal> animals)
+	public static int averageLegs(ArrayList<Animal> animals)
 	{
 		int result = 0;
 		
@@ -34,7 +34,7 @@ public class AnimalCalculator
 		return result / animals.size();
 	}
 	
-	public String leastLegs(ArrayList<Animal> animals)
+	public static String leastLegs(ArrayList<Animal> animals)
 	{
 		Animal leastLegs = null;
 		int legs = 1000;
