@@ -5,10 +5,10 @@ import java.util.*;
 public class Spikes
 {
 	
-	public Spikes(PApplet p, PVector positionIn)
+	public Spikes(PApplet p, PVector position)
 	{
 			this.p = p;
-			position = positionIn;
+			this.position = position;
 			velocity = new PVector(p.random(-1,2),p.random(-1,2));
 			radius = 1;
 			p.color(0);
